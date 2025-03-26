@@ -18,7 +18,16 @@ You can run this project in a Docker container for a consistent environment.
 - `housing.csv` from [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices) placed in the `data/` folder
 
 ### Build the Docker Image
-1. Navigate to the project directory:
+1. **Clone the Repository**:
    ```bash
-   cd california-housing-regression
+   git clone https://github.com/ajay-drew/Day-1-housing-regression.git
+   cd Day-1-housing-regression
    ```
+2. **Build the Docker Image**:
+    ```bash
+    docker build -t california-housing-regression .
+    ```
+3. **Run the Container**:
+    ```bash
+    docker run -v /full/path/to/data:/app/data california-housing-regression
+    ```
