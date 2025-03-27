@@ -1,4 +1,4 @@
-# California Housing Prices Regression
+# California Housing Price Regression
 
 An intermediate-level linear regression implementation using scikit-learn to forecast home prices from the California Housing Prices dataset, which is accessible on Kaggle. A pipeline, feature engineering, hyperparameter tuning using GridSearchCV, and simple visualizations are all included in the source.
 
